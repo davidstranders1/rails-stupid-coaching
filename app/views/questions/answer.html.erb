@@ -1,1 +1,7 @@
-answer.html.erb
+<p> <%= params[:question] %> </p>
+<p> - You </p>
+
+<p><strong> <%= @answer %> </strong></p>
+<p> - Coach </p>
+
+<%= link_to "Ask another question", ask_path %>
